@@ -1,0 +1,20 @@
+.default {
+  border: 1px solid #ccc;
+}
+
+.modern header,
+.modern nav ul {
+  display: flex;
+  justify-content: space-between;
+  background: darkblue;
+  width: 100%;
+}
+
+.modern header,
+.modern nav ul li,
+.modern nav ul li a {
+  display: flex;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
